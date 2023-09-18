@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#circle{
+height: 50px;
+border: #F33A3A solid 0.5px;
+border-radius: 50%;
+width: 50px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 10;
+}
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #F6EEE3;
+}
+
+#element-1 {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    background: url(lefrt.jpg) center/cover;
+    position: absolute;
+    left: 30%;
+    transform: rotate(80deg);
+}
+
+#element-2 {
+    height: 600px;
+    width: 400px;
+    z-index: 1;
+    background: url(midd.jpg) center/cover;
+    background-color: white;
+}
+
+#element-3 {
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    right: 35%;
+    background: url(3.jpg) center/cover;
+    top: 22%;
+    background-color: lightblue;
+    transform: rotate(-80deg);
+}
+
+#main h1 {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200px;
+    font-family: "Playfair Display";
+    font-weight: 100;
+    color: #F33A3A;
+    letter-spacing: 30px;
+
+}
+
+#icon {
+    position: absolute;
+}

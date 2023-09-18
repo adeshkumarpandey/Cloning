@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Source Serif 4";
+    src: url(fonts/Source-Serif-4.woff2);
+}
+
+@font-face {
+    font-family: "Mona sans";
+    src: url(fonts/Mona-Sans.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #F8F7F4;
+}
+
+#navbar {
+    padding: 0 50px;
+    height: 100px;
+    width: 100%;
+    background-color: #F8F7F4;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Mona sans";
+    align-items: center;
+}
+
+#elements-1 {
+    /* display: flex;
+    gap: 10px; */
+    font-weight: 500;
+    font-size: 14px;
+    /* margin: 50px; */
+}
+
+#elements-1 a {
+    margin-right: 30px;
+    color: #0d0c22;
+    text-decoration: none;
+}
+
+img {
+    margin-right: 16%;
+    width: 96px;
+    height: 38px;
+}
+
+
+#elements-2>button {
+    background-color: transparent;
+}
+
+#elements-2 button {
+    padding: 24px;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+    height: 48px;
+    border-radius: 50px;
+}
+
+#elements-2 :nth-child(2) {
+    margin-left: 18px;
+    background-color: black;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+
+}
+
+/* Hero section starts */
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.badge {
+    width: 477px;
+    /* border: #0d0c22 solid 1px; */
+    font-family: "Source Serif 4";
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 50px;
+    margin-top: 5%;
+    font-weight: 500;
+    animation: bgcolor 32s linear infinite normal;
+    padding: 10px;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #ffda79;
+    }
+
+    25% {
+        background-color: #ffabe7;
+    }
+
+    50% {
+        background-color: #d2bcf3;
+    }
+
+    75% {
+        background-color: #edf3d8;
+    }
+
+    100% {
+        background-color: #ffda79;
+    }
+}
+
+.hero-container h1 {
+    font-size: 60px;
+    width: 600px;
+    text-align: center;
+    margin: 40px auto 24px;
+    font-family: "Source Serif 4", Georgia, serif;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    line-height: 56px;
+}
+.hero-container p {
+    font-size: 18px;
+    text-align: center;
+    font-family: "mona sans";
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 50px;
+}

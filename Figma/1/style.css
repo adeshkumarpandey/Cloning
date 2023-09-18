@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: salmon;
+}
+#nav{
+    height: 105px;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+}
+#logo
+{
+    height: 57px;
+    width: 38px;
+    margin-left: 48px;
+}
+#logo-circle{
+    height: 19px;
+    width: 19px;
+    background-color: #F24E1E;
+    border-radius: 50%;
+}
+#logo-circle:nth-child(2){
+    background-color: salmon;
+}#logo-circle:nth-child(3){
+    background-color: #A259FF;
+}#logo-circle:nth-child(4){
+    background-color: #1ABCFE;
+}#logo-circle:nth-child(5){
+    background-color: #0ACF83;
+}

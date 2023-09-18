@@ -1,0 +1,119 @@
+@font-face {
+    font-family: sf-pro-display;
+    src: url(font/sf-pro-text_regular.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sf-pro-display;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    /* width: 100%; */
+    /* background-color: black; */
+
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #fcfcfd8a;
+    height: 44px;
+}
+
+#nav {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #fcfcfd8a;
+    gap: 36px;
+}
+
+#nav i {
+    cursor: pointer;
+}
+
+#nav a {
+    font-size: 12px;
+    cursor: pointer;
+    /* text-shadow: #C8C8C9 0.5px 0.5px 0.5px ; */
+    font-weight: 100;
+    text-decoration: none;
+    color: #000;
+}
+
+#notification {
+    padding: 1%;
+    font-size: medium;
+    text-align: center;
+    color: #000;
+    /* background-color: blue; */
+    /* height: 45px; */
+}
+
+#notification a {
+    text-decoration: none;
+    color: #327FCC;
+}
+
+#hero {
+    height: 77%;
+    background-image: url(img/hero_iphone15pro_large.jpg);
+    background-position: center;
+}
+
+#hero h1 {
+    /* border: blue 2px solid; */
+    padding: 50px 0 0 0;
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#Titanium {
+    text-align: center;
+    margin-top: 13px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#hero #gray {
+    /* border: blue 12px solid; */
+    margin-top: 18px;
+    color: #86868B;
+    font-size: 20px;
+    text-align: center;
+}
+
+#hero #at {
+    margin: 15px 0 0 0;
+    margin-right: 20px;
+    text-align: center;
+    
+}
+
+#hero #at a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #327FCC;
+    margin: 10px;
+}
+
+#at i{
+    font-size: 20px;
+}
