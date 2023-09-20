@@ -143,3 +143,14 @@ img {
     letter-spacing: -0.5px;
     line-height: 50px;
 }
+
+#btn3{
+   
+    margin-top: 35px;
+    background-color: black;
+    color: #fff;
+    padding: 20px 30px;
+    border-radius: 50px;
+    font-family: "Source Serif 4", Georgia, serif;
+    font-weight: 600;
+}
