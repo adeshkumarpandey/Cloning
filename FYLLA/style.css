@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    background-color: #FDFBF5;
+    padding: 1rem;
+}
+
+#workspace {
+    border: 1px #191919 solid;
+    margin: 16px;
+}
