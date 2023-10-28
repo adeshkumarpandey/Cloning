@@ -11,11 +11,10 @@ body {
 }
 
 #main {
-    background-color: #FDFBF5;
     padding: 1rem;
+    background-color: #fdfbf5;
 }
 
 #workspace {
     border: 1px #191919 solid;
-    margin: 16px;
 }
